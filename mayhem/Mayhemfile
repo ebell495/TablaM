@@ -1,0 +1,6 @@
+project: tablam
+target: tablam-parse-fuzz
+
+cmds:
+    - cmd: ./tablam-parse-fuzz
+      libfuzzer: true
