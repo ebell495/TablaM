@@ -1,0 +1,6 @@
+let sales:= [
+  name:Str, price:Dec, qty:Int;
+  "Hamburger", 10.2, 2;
+  "Soda", 3.0, 4;
+  "French fries", 7.0, 2;
+]

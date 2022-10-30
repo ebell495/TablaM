@@ -1,0 +1,9 @@
+-- Filter only values exactly = 2
+[1; 2; 3] ?where #0 = 2 
+
+-- Open a file, sort it and return the first 3 rows
+open("file.csv") ?sort ?limit 3 
+
+--You can use them everywhere
+for i in [1; 2; 3] ?skip 2 do-- skip the first 2 rows
+end

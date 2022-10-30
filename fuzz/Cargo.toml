@@ -11,8 +11,8 @@ cargo-fuzz = true
 [dependencies]
 libfuzzer-sys = "0.4"
 
-[dependencies.tablam-parser]
-path = "../src/parser"
+[dependencies.tablam-eval]
+path = "../src/eval"
 
 # Prevent this from interfering with workspaces
 [workspace]

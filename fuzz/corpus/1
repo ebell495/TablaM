@@ -1,0 +1,2 @@
+let x := 1 -- immutable aka: final (java), const (js), it cannot be updated
+var x := 1 -- mutable
