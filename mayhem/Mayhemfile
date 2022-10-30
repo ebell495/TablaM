@@ -1,6 +1,9 @@
 project: tablam
 target: tablam-parse-fuzz
 
+testsuite:
+    - file://fuzz/corpus
+
 cmds:
     - cmd: ./tablam-parse-fuzz
       libfuzzer: true
